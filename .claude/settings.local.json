@@ -10,7 +10,9 @@
       "Bash(chmod:*)",
       "Bash(npx localtunnel --port 5000)",
       "Bash(curl:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(/Users/gaganarora/Desktop/gagan_projects/gmail_signal/renew_push.sh)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
