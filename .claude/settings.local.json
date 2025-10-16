@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python main.py:*)",
+      "WebFetch(domain:mathematricks.fund)",
+      "Bash(python:*)",
+      "Bash(chmod:*)",
+      "Bash(npx localtunnel --port 5000)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

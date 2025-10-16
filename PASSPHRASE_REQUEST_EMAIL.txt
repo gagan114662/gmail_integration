@@ -1,0 +1,37 @@
+Subject: API Passphrase Verification for Gmail Signal Integration
+
+Hi Mathematricks Team,
+
+I'm setting up the Gmail Signal Integration system for vandan@mathematricks.fund and need to verify the API passphrase.
+
+Current Configuration:
+- Strategy Name: Gmail_Signal_Integration
+- API Endpoint: https://mathematricks.fund/api/signals
+- Email Account: gagan@getfoolish.com (monitoring for signals)
+
+Current Passphrase (being rejected):
+bob_trading_signals_24sddty2g
+
+Error Received:
+HTTP 401 - {"error":"Unauthorized: Invalid passphrase"}
+
+Questions:
+1. Is this the correct passphrase for our account?
+2. Should the strategy name be different?
+3. Are there any special characters or case-sensitivity requirements?
+4. Is there a different passphrase for vandan@mathematricks.fund?
+
+Technical Details:
+- System is fully configured and ready
+- Gmail push notifications working
+- Only waiting on correct API passphrase to go live
+
+Please provide the correct passphrase so we can complete the integration.
+
+Thank you!
+
+---
+Alternative: If you prefer, please reply with:
+- Correct passphrase: _______________
+- Strategy name to use: _______________
+- Any other configuration details

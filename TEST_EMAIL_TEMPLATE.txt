@@ -1,0 +1,62 @@
+# Test Email Template
+
+Send this email to: gagan@getfoolish.com
+
+---
+
+**Subject:** Test LESLIE_SIGNAL
+
+**Body:**
+
+LESLIE_SIGNAL
+
+Ticker: AAPL
+Action: BUY
+Price: $150.00
+Quantity: 100
+Stop Loss: $145.00
+Take Profit: $160.00
+
+---
+
+## Alternative Test Format (JSON)
+
+**Subject:** LESLIE_SIGNAL Alert
+
+**Body:**
+
+LESLIE_SIGNAL
+
+{
+  "ticker": "TSLA",
+  "action": "SELL",
+  "price": 250.50,
+  "quantity": 50,
+  "type": "LIMIT"
+}
+
+---
+
+## Expected Flow:
+
+1. ✉️  Email arrives at gagan@getfoolish.com
+2. 📬 Gmail sends push notification to Pub/Sub
+3. 📡 Pub/Sub forwards to webhook: https://dull-corners-melt.loca.lt/webhook
+4. 🔍 Webhook detects "LESLIE_SIGNAL"
+5. 📊 Extracts trading signal data
+6. 🚀 Forwards to Mathematricks API
+7. ✅ API confirms receipt
+
+---
+
+## Monitor Logs:
+
+Watch the terminal output for:
+- "Received notification"
+- "Signal email detected"
+- "Extracted signal"
+- "Successfully forwarded signal"
+
+---
+
+Ready to test! Send the email now.
